@@ -1,7 +1,7 @@
 # nvim
 My customized NeoVim's settings.
 
-***Install Nvim**: See [here](https://github.com/neovim/neovim/releases).
+***Install Nvim**: See [here](https://github.com/neovim/neovim/releases).*
 
 ***Usage**: Clone the repo to `$HOME/.config/`, and install the below packages.*
 
