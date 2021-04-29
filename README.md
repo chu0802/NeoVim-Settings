@@ -5,13 +5,13 @@ My customized NeoVim's settings.
 
 ***Usage**: Clone the repo to `$HOME/.config/`, and install the below packages.*
 
-### Plugin Manager:
+## Plugin Manager:
 I'm using [pathogen](https://github.com/tpope/vim-pathogen) as my vim-plugin manager. See [here](https://github.com/tpope/vim-pathogen) for installing.
 
-### Plugin:
+## Plugin:
 ***Usage**: Clone the following repo to `$HOME/.config/nvim/bundle/`.*
 
-#### ncm2-related
+### ncm2-related
 
 ***Note**: To avoid error message, one must first install `pynvim`, type `python3 -m pip install pynvim`*.
 
@@ -21,9 +21,9 @@ I'm using [pathogen](https://github.com/tpope/vim-pathogen) as my vim-plugin man
 * [ncm2-path](https://github.com/ncm2/ncm2-path)
 * [nvim-yarp](https://github.com/roxma/nvim-yarp)
 
-#### Theme / Syntax
+### Theme / Syntax
 * [vim-one](https://github.com/rakr/vim-one)
 * [python-syntax](https://github.com/vim-python/python-syntax)
 
-#### Explorer
+### Explorer
 * [nerdtree](https://github.com/preservim/nerdtree)
