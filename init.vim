@@ -48,6 +48,7 @@ au BufNewFile,BufRead *.py
 	\ nnoremap <C-_> :call PyComment(1)<Cr>|
 
 " Useful
+
 tnoremap <Esc> <C-\><C-n>
 " map  <C-c> :tabnew<CR>
 map  <C-p> :tabprev<CR>
@@ -71,6 +72,8 @@ nnoremap <C-Right> <C-w><Right>i
 
 " Open a terminal
 nnoremap <C-t> :split<CR>:resize 10<CR>:terminal<CR>i
+" Close the terminal
+tnoremap <C-t> <C-\><C-n>:q<CR>
 
 " form term mode
 tnoremap <C-Up> <C-\><C-n><C-w><Up>i
@@ -101,7 +104,7 @@ let ncm2#popup_delay = 5
 let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
-inoremap <c-c> <ESC>
+inoremap <c-c> <ESC>:w<CR>
 inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
