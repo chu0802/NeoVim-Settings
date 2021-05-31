@@ -83,7 +83,7 @@ tnoremap <C-Right> <C-\><C-n><C-w><Right>i
 
 " For nerdtree
 nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-c> :NERDTreeToggle<CR><C-w><Right>
+nnoremap <C-d> :NERDTreeToggle<CR><C-w><Right>
 let g:NERDTreeMouseMode=3
 
 " close nerdtree automatically
@@ -104,7 +104,8 @@ let ncm2#popup_delay = 5
 let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
-inoremap <c-c> <ESC>:w<CR>
+inoremap <C-c> <ESC>:w<CR>
+nnoremap <C-c> :w<CR>
 inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
