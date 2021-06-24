@@ -16,6 +16,8 @@ set nowrap
 set ruler
 set splitbelow
 set expandtab
+set swapfile
+set dir=.
 
 " Crontabs must be edited in place
 " au BufRead /tmp/crontab* :set backupcopy=yes
