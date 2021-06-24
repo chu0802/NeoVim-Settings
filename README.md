@@ -13,7 +13,11 @@ I'm using [pathogen](https://github.com/tpope/vim-pathogen) as my vim-plugin man
 
 ### ncm2-related
 
-***Note**: To avoid error message, one must first install `pynvim`, type `python3 -m pip install pynvim`*.
+***Note**: To avoid error message, one must first install `pynvim`, `jedi`, type the following command:*
+```
+python3 -m pip install pynvim
+python3 -m pip install jedi
+```
 
 * [ncm2](https://github.com/ncm2/ncm2)
 * [ncm2-bufword](https://github.com/ncm2/ncm2-bufword)
