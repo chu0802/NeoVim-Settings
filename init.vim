@@ -128,3 +128,6 @@ hi StatusLine ctermbg=none cterm=bold
 " python-syntax
 let g:python_highlight_all = 1
 let g:python_highlight_space_errors = 0
+
+" swift-syntax
+let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
