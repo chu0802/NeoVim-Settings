@@ -9,14 +9,16 @@ My customized NeoVim's settings.
 I'm using [pathogen](https://github.com/tpope/vim-pathogen) as my vim-plugin manager. See [here](https://github.com/tpope/vim-pathogen) for installing.
 
 ## Plugin:
-***Usage**: Clone the following repo to `$HOME/.config/nvim/bundle/`.*
 
-***NEW***
 Type the following command to automatically download all packages I'm using.
 
 ```
 bash packages_loader.sh
 ```
+
+or
+
+Download packages with ***your favors***.
 
 ### ncm2-related
 
