@@ -27,7 +27,11 @@ python3 -m pip install jedi
 
 ### Theme / Syntax
 * [vim-one](https://github.com/rakr/vim-one)
+
+#### Syntax for python
 * [python-syntax](https://github.com/vim-python/python-syntax)
 
+#### Syntax for swift
+* [keith/swift.vim](https://github.com/keith/swift.vim)
 ### Explorer
 * [nerdtree](https://github.com/preservim/nerdtree)
