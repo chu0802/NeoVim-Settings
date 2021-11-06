@@ -18,7 +18,7 @@ bash packages_loader.sh
 
 or
 
-Download packages with ***your favors***.
+Download packages ***in your favor***.
 
 ### ncm2-related
 
