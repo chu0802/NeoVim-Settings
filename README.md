@@ -42,6 +42,5 @@ python3 -m pip install jedi
 
 #### Syntax for swift
 * [keith/swift.vim](https://github.com/keith/swift.vim)
-* [vim-swift](https://github.com/lilyball/vim-swift)
 ### Explorer
 * [nerdtree](https://github.com/preservim/nerdtree)

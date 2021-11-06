@@ -9,5 +9,4 @@ git clone https://github.com/rakr/vim-one
 git clone https://github.com/vim-python/python-syntax
 git clone https://github.com/keith/swift.vim
 git clone https://github.com/preservim/nerdtree
-git clone https://github.com/lilyball/vim-swift
 cd ..
