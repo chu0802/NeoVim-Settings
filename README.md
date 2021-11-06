@@ -11,6 +11,13 @@ I'm using [pathogen](https://github.com/tpope/vim-pathogen) as my vim-plugin man
 ## Plugin:
 ***Usage**: Clone the following repo to `$HOME/.config/nvim/bundle/`.*
 
+***NEW***
+Type the following command to automatically download all packages I'm using.
+
+```
+bash packages_loader.sh
+```
+
 ### ncm2-related
 
 ***Note**: To avoid error message, one must first install `pynvim`, `jedi`, type the following command:*
