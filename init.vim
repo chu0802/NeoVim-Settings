@@ -49,6 +49,9 @@ au BufNewFile,BufRead *.py
 	\ inoremap <C-_> <Esc>:call PyComment(0)<CR>i|
 	\ nnoremap <C-_> :call PyComment(1)<Cr>|
 
+au BufNewFile,BufRead *.swift
+    \ inoremap {<CR> {<CR>}<Esc>ko|
+
 " Useful
 
 tnoremap <Esc> <C-\><C-n>
