@@ -77,6 +77,7 @@ nnoremap <C-Right> <C-w><Right>i
 
 " Open a terminal
 nnoremap <C-t> :split<CR>:resize 10<CR>:terminal<CR>i
+nnoremap <Esc><Esc> :noh
 " Close the terminal
 tnoremap <C-t> <C-\><C-n>:q<CR>
 
