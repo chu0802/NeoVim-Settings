@@ -111,6 +111,7 @@ let ncm2#complete_length = [[1, 1]]
 let g:ncm2#matcher = 'substrfuzzy'
 
 inoremap <C-c> <ESC>:w<CR>
+nnoremap <ESC><ESC> :noh<CR>
 nnoremap <C-c> :w<CR>
 inoremap <expr> <CR> (pumvisible() ? "\<c-y>\<cr>" : "\<CR>")
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
