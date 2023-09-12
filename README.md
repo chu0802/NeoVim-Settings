@@ -4,7 +4,7 @@ This repository contains my customized NeoVim settings for an optimized editing 
 ## Installation
 
 1. **NewVim**: Ensure you have NeoVim installed. For installation instructions, refer [here](https://github.com/neovim/neovim/releases).
-2. **Clone Repository**: Clone this repository to $HOME/.config/.
+2. **Clone Repository**: Clone this repository to `$HOME/.config/`.
 ```bash
 git clone https://github.com/chu0802/nvim ~/.config/nvim
 ```
